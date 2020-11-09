@@ -15,6 +15,6 @@ public class HelloWorld
              Period university_time = date_UoC_imma.until(date_now);
              
              
-             System.out.format("Matriculated since %d years, %d month. %n", university_time.get(ChronoUnit.YEARS),university_time.get(ChronoUnit.MONTHS));
+             System.out.format("Lukas Düchting is matriculated since %d years, %d month. %n", university_time.get(ChronoUnit.YEARS),university_time.get(ChronoUnit.MONTHS));
        }
 }
